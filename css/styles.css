@@ -1,1 +1,44 @@
 /* CSS */
+body {
+  margin: 0px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-btn {
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.form-btn-submit {
+  background-color: green;
+  color: white;
+}
+
+.form-btn-reset {
+  background-color: blue;
+  color: white;
+}
+
+.form-btn-reverse {
+  background-color: red;
+  color: white;
+}
+
+.padding-16 {
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
