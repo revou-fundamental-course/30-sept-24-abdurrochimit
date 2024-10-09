@@ -1,16 +1,54 @@
 /* CSS */
 body {
-  margin: 0px;
+  /* align-items: center; */ */
+  width: 100%;
+  margin: 0;
+  padding: 0px;
+  background-image: url("../assets/memphis-colorful.png");
+  
+}
+
+#header {
+  width: 100%;
+  background-color: #0000FF;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.3);
+  color: #fff;
+  position: relative;
+  top: 0; /* Menempel di bawah */
+  position: fixed;
+}
+
+#header h2 {
+  text-align: center;
+}
+
+main {
+  max-width: 600px; /* Maksimum lebar artikel */
+  margin: 20px auto; 
+  margin-top: 100px;
+  padding: 20px; /* Padding untuk artikel */
   background-color: antiquewhite;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  border-radius: 16px; /* Sudut melengkung */
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.3); /* Bayangan lembut */
+}
+
+#instruksi {
+  font-size: 20px;
 }
 
 .form-btn {
+  width:80px;
+  font-size: 16px;
   border: none;
   padding: 8px;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+.form-btn:hover,
+.form-btn:focus { 
+  background-color: #16437E;
+  color: #ffffff;
 }
 
 .form-btn-submit {
@@ -29,10 +67,15 @@ body {
 }
 
 .padding-16 {
+  font-size: 18px;
+  padding: 16px;
+  box-sizing: border-box;
 }
 
+
+
 textarea {
-  width: 100%;
+  width: 65%;
   height: 150px;
   padding: 12px 20px;
   box-sizing: border-box;
@@ -41,4 +84,19 @@ textarea {
   background-color: #f8f8f8;
   font-size: 16px;
   resize: none;
+}
+
+#hasil-suhu,
+#how-to-suhu {
+  background-color: #EAEEE9;
+}
+
+footer {
+  text-align: center; /* Menengahkan teks footer */
+  padding: 6px 0; /* Padding untuk footer */
+  background-color: #C0C0C0; /* Warna hijau untuk footer */
+  color: white; /*Warna teks putih */
+  position: relative; /* Posisi relatif untuk footer */
+  bottom: 0; /* Menempel di bawah */
+  width: 100%; /* Lebar penuh */
 }
